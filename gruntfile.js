@@ -1,11 +1,19 @@
 module.exports = function(grunt) {
 
-    // measures the time each task takes
-    require('time-grunt')(grunt);
+    grunt.loadNpmTasks('grunt-contrib-connect');
 
-    // load grunt config
-    require('load-grunt-config')(grunt, {
-        jitGrunt: true
+    grunt.initConfig({
+        connect: {
+            template: {
+                options: {
+                    hostname: 'localhost',
+                    port: '1413',
+                    base: 'template',
+                    keepalive: true
+                }
+            }
+        }
     });
 
+    grunt.registerTask('start', ['connect']);
 };
