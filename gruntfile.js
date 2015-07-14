@@ -1,8 +1,15 @@
 module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-gh-pages');
 
     grunt.initConfig({
+        assemble: {
+            options: {
+                layout: 'index.hbs',
+                layoutdir: 'layouts'
+            }
+        },
         connect: {
             template: {
                 options: {
@@ -12,6 +19,12 @@ module.exports = function(grunt) {
                     keepalive: true
                 }
             }
+        },
+        'gh-pages': {
+            options: {
+                base: 'template/landing'
+            },
+            src: ['**/*']
         }
     });
 
