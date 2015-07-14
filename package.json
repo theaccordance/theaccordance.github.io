@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/theaccordance/theaccordance.github.io#readme",
   "devDependencies": {
-    "assemble": "^0.4.42",
-    "grunt": "^0.4.5",
-    "load-grunt-config": "^0.17.2",
-    "load-grunt-tasks": "^3.2.0",
-    "time-grunt": "^1.2.1"
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-connect": "^0.10.1"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5"
   }
 }
