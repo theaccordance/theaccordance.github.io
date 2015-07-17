@@ -1,32 +1,20 @@
 module.exports = function(grunt) {
 
-    grunt.loadNpmTasks('grunt-contrib-connect');
-    grunt.loadNpmTasks('grunt-gh-pages');
+    var pkg = grunt.file.readJSON('package.json'),
+        tasks = pkg.devDependencies,
+        config = {},
+        fileName,
+        fileData;
 
-    grunt.initConfig({
-        assemble: {
-            options: {
-                layout: 'index.hbs',
-                layoutdir: 'layouts'
-            }
-        },
-        connect: {
-            template: {
-                options: {
-                    hostname: 'localhost',
-                    port: '1413',
-                    base: 'template',
-                    keepalive: true
-                }
-            }
-        },
-        'gh-pages': {
-            options: {
-                base: 'template/landing'
-            },
-            src: ['**/*']
-        }
+    for ( var task in tasks ) {
+        grunt.loadNpmTasks(task);
+    }
+
+    grunt.file.expand('build/configs/**/*.js').forEach(function(filePath) {
+        fileName = filePath.split('/').pop().split('.')[0];
+        fileData = require('./' + filePath);
+        config[fileName] = fileData;
     });
 
-    grunt.registerTask('start', ['connect']);
+    grunt.initConfig(config);
 };
