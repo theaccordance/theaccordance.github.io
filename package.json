@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/theaccordance/theaccordance.github.io#readme",
   "devDependencies": {
+    "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-copy": "^0.8.0",
     "grunt-contrib-less": "^1.0.1",
     "grunt-gh-pages": "^0.10.0"
   },

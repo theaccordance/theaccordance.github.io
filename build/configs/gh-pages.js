@@ -1,6 +1,6 @@
 module.exports = {
     options: {
-        base: 'template/posts',
+        base: 'dist',
         branch: 'master'
     },
     src: ['**/*']

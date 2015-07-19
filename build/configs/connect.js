@@ -3,7 +3,7 @@ module.exports = {
         options: {
             hostname: 'localhost',
             port: '1413',
-            base: 'template',
+            base: 'template/landing',
             keepalive: true
         }
     }
