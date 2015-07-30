@@ -11,4 +11,5 @@ Supercharge your Atom.io text editor
 - Install shell commands (Top Toolbar: Atom > Install Shell Commands)
 
 ## Recommended Packages
-
+- https://atom.io/packages/atom-terminal-panel
+- 
