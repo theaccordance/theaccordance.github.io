@@ -3,7 +3,7 @@ module.exports = function (grunt) {
         project: {
             options: {
                 base: 'preview',
-                branch: 'gh-pages'
+                branch: 'master'
             },
             src: '**/*'
         }
