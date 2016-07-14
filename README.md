@@ -1,2 +1,1 @@
-# theaccordance.github.io
-Personal Website
+# theaccordance
