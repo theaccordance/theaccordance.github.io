@@ -4,6 +4,6 @@
   "dependencies": {
     "requirejs": "^2.3.2",
     "angular": "^1.5.9",
-    "angular-ui-router": "ui-router#^0.3.2"
+    "ui-router": "1.0.0-beta.3"
   }
 }
