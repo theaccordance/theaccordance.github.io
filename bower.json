@@ -2,6 +2,8 @@
   "name": "theaccordance",
   "version": "0.1.0",
   "dependencies": {
-    "requirejs": "^2.3.2"
+    "requirejs": "^2.3.2",
+    "angular": "^1.5.9",
+    "angular-ui-router": "ui-router#^0.3.2"
   }
 }
