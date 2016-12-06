@@ -1,10 +1,10 @@
 define([
     'angular',
-    './menu/menu.component'
-], function (angular, menu) {
+    './sidemenu/sidemenu.component'
+], function (angular, sidemenu) {
     "use strict";
     return angular.module('jm.common', [])
-        .component('menu', menu)
+        .component('sidemenu', sidemenu)
         .run(function () {
             window.console.log('jm.common launched.');
         });
