@@ -21,18 +21,10 @@ sidemenu {
     width: 100%;
     z-index: 900;
 
-    li {
-      transform: scaleX(0) scaleY(0);
-      transition: transform .5s ease-in-out;
-    }
   }
 
   div.open > main {
     transform: translateX(75%) scaleX(0.75) scaleY(0.75);
-  }
-
-  div.open > menu li {
-    transform: scaleX(1) scaleY(1);
   }
 
   button {
