@@ -9,7 +9,7 @@ module.exports = function (grunt) {
         },
         project: {
             files: ['source/**/*'],
-            tasks: ['clean', 'copy', 'concat', 'less']
+            tasks: ['build']
         }
     };
 };
