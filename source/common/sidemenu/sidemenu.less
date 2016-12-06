@@ -5,13 +5,14 @@ sidemenu {
     left: 0;
     position: absolute;
     top: 0;
-    width: 100%;
     transition: transform .5s ease-in-out;
+    width: 100%;
     z-index: 1000;
   }
 
   menu {
     background: #0e2231;
+    color: #FFF;
     height: 100%;
     left: 0;
     margin: 0;
@@ -19,10 +20,19 @@ sidemenu {
     top: 0;
     width: 100%;
     z-index: 900;
+
+    li {
+      transform: scaleX(0) scaleY(0);
+      transition: transform .5s ease-in-out;
+    }
   }
 
   div.open > main {
     transform: translateX(75%) scaleX(0.75) scaleY(0.75);
+  }
+
+  div.open > menu li {
+    transform: scaleX(1) scaleY(1);
   }
 
   button {
