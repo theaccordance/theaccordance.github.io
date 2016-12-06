@@ -8,10 +8,29 @@ sidemenu {
     transition: transform .5s ease-in-out;
     width: 100%;
     z-index: 1000;
+
+    i {
+      color: #FFF;
+      font-size: 2em;
+      left: 24px;
+      position: absolute;
+      top: 24px;
+      z-index: 1100;
+    }
+
+    div.content {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 1050;
+    }
   }
 
   menu {
     background: #0e2231;
+    box-sizing: border-box;
     color: #FFF;
     height: 100%;
     left: 0;
@@ -25,11 +44,5 @@ sidemenu {
 
   div.open > main {
     transform: translateX(75%) scaleX(0.75) scaleY(0.75);
-  }
-
-  button {
-    background-color: transparent;
-    border: 2px solid #FFF;
-    border-radius: 4px;
   }
 }

@@ -1,12 +1,8 @@
 <div ng-class="{'open': $ctrl.sidemenu}">
     <main>
-        <button ng-click="$ctrl.open()">Click Me</button>
+        <i class="icon ion-navicon" ng-click="$ctrl.open()"></i>
+        <div class="content" ui-view></div>
     </main>
     <menu>
-        <ul>
-            <li>Foo</li>
-            <li>Bar</li>
-            <li>Baz</li>
-        </ul>
     </menu>
 </div>
