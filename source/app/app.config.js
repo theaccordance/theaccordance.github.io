@@ -2,7 +2,7 @@ define(function() {
     "use strict";
 
     function AppConfig($urlRouterProvider) {
-        $urlRouterProvider.when('', '/login');
+        $urlRouterProvider.when('', '/profile');
     }
 
     return ['$urlRouterProvider', AppConfig];

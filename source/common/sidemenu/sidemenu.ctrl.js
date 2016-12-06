@@ -1,7 +1,7 @@
 define(function () {
     "use strict";
 
-    function MenuController() {
+    function MenuController($state, $timeout) {
         var vm = this;
 
         function onInit() {
@@ -13,10 +13,22 @@ define(function () {
             vm.sidemenu = !vm.sidemenu;
         }
 
+        function navigate() {
+            var dest = $state.is('login') ? 'profile' : 'login';
+            window.console.log('nav');
+            vm.sidemenu = !vm.sidemenu;
+
+            $timeout(function() {
+                $state.go(dest);
+            }, 500);
+
+        }
+
         vm.$onInit = onInit;
+        vm.navigate = navigate;
         vm.open = open;
         vm.sidemenu = false;
     }
 
-    return MenuController;
+    return ['$state', '$timeout', MenuController];
 });

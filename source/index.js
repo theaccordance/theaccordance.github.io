@@ -5,7 +5,8 @@ require.config({
     },
     shim: {
         'angular' : {'exports' : 'angular'},
-        'lib/angular-ui-router' : { deps: ['angular']}
+        'lib/angular-ui-router' : { deps: ['angular']},
+        'lib/angular-animate.min' : { deps: ['angular']}
     },
     priority : [
         'angular'

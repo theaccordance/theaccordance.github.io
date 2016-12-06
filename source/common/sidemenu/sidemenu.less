@@ -1,6 +1,6 @@
 sidemenu {
   main {
-    background: #00aaff;
+    background: linear-gradient(to bottom, #e67e22 0%,#c0392b 100%);
     height: 100%;
     left: 0;
     position: absolute;
@@ -18,13 +18,31 @@ sidemenu {
       z-index: 1100;
     }
 
-    div.content {
+    div[ui-view] {
       height: 100%;
       left: 0;
       position: absolute;
       top: 0;
       width: 100%;
       z-index: 1050;
+
+      &.ng-enter {
+        transform: translateY(100%);
+        transition: .5s;
+      }
+
+      &.ng-enter-active {
+        transform: translateY(0);
+      }
+
+      &.ng-leave {
+        transition: .5s;
+        transform: translateY(0);
+      }
+
+      &.ng-leave-active {
+        transform: translateY(-100%);
+      }
     }
   }
 

@@ -3,7 +3,7 @@ define(function() {
     function ProfileStates($stateProvider) {
         $stateProvider.state('profile', {
             url: '/profile',
-            component: 'profile'
+            template: '<profile></profile>'
         });
     }
 
