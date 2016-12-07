@@ -8,6 +8,7 @@ sidemenu {
     transition: transform .5s ease-in-out;
     width: 100%;
     z-index: 1000;
+    overflow: hidden;
 
     i {
       color: #FFF;
@@ -29,6 +30,7 @@ sidemenu {
       &.ng-enter {
         transform: translateY(100%);
         transition: .5s;
+        transition-delay: .5s;
       }
 
       &.ng-enter-active {
@@ -37,6 +39,7 @@ sidemenu {
 
       &.ng-leave {
         transition: .5s;
+        transition-delay: .5s;
         transform: translateY(0);
       }
 
@@ -57,7 +60,6 @@ sidemenu {
     top: 0;
     width: 100%;
     z-index: 900;
-
   }
 
   div.open > main {

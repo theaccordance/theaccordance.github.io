@@ -9,18 +9,14 @@ define(function () {
         }
 
         function open() {
-            window.console.log('open');
             vm.sidemenu = !vm.sidemenu;
         }
 
         function navigate() {
             var dest = $state.is('login') ? 'profile' : 'login';
-            window.console.log('nav');
             vm.sidemenu = !vm.sidemenu;
 
-            $timeout(function() {
-                $state.go(dest);
-            }, 500);
+            $state.go(dest);
 
         }
 
