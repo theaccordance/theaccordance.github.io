@@ -3,7 +3,7 @@ define(function() {
     function LoginStates($stateProvider) {
         $stateProvider.state('login', {
             url: '/login',
-            component: 'login'
+            template: '<login></login>'
         });
     }
 
