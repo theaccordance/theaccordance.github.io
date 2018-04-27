@@ -1,0 +1,407 @@
+{
+    "dev": {
+        "branch": "develop",
+        "deployed": "2016-03-09T16:04:09.780Z",
+        "username": "philipplekhanov"
+    },
+    "tron": {
+        "branch": "feature/master_defects_v1.231.0",
+        "deployed": "2018-04-27T18:44:57.391Z",
+        "username": "jalpakhatri"
+    },
+    "qa": {
+        "branch": "feature/HG-5939_feedback_request_sort_order",
+        "deployed": "2018-04-27T16:32:23.380Z",
+        "username": "qa"
+    },
+    "demo": {
+        "branch": "hotfix/v1.232.1",
+        "deployed": "2018-04-27T03:58:31.194Z",
+        "username": "tuance"
+    },
+    "prod": {
+        "branch": "hotfix/v1.232.1",
+        "deployed": "2018-04-27T04:10:53.491Z",
+        "username": "tuance"
+    },
+    "moqa": {
+        "branch": "hotfix/v1.231.1",
+        "deployed": "2018-04-20T20:07:40.598Z",
+        "username": "marciecarlos"
+    },
+    "poc": {
+        "branch": "feature/HG-4880_ManagerAns_API",
+        "deployed": "2018-04-26T18:10:51.089Z",
+        "username": "marciecarlos"
+    },
+    "uat": {
+        "branch": "hotfix/v1.232.1",
+        "deployed": "2018-04-27T17:10:20.964Z",
+        "username": "jalpakhatri"
+    },
+    "st": {
+        "branch": "hotfix/v1.232.1",
+        "deployed": "2018-04-27T04:20:59.721Z",
+        "username": "tuance"
+    },
+    "borg": {
+        "branch": "feature/#1330_mobile_notifications_1.5",
+        "deployed": "2018-04-25T14:59:23.214Z",
+        "username": "mainwaring"
+    },
+    "cylon": {
+        "branch": "feature/custom_roles_phase2_branch3",
+        "deployed": "2018-04-27T15:05:44.831Z",
+        "username": "irenekoumi"
+    },
+    "apiprod": {
+        "branch": "release/v1.232.0",
+        "deployed": "2018-04-27T02:36:38.605Z",
+        "username": "tuance"
+    },
+    "apipoc": {
+        "branch": "feature/HG-4880_ManagerAns_API",
+        "deployed": "2018-04-26T19:21:34.330Z",
+        "username": "marciecarlos"
+    },
+    "apitron": {
+        "branch": "release/v1.229.0",
+        "deployed": "2018-04-06T00:08:33.090Z",
+        "username": "marciecarlos"
+    },
+    "apiqa": {
+        "branch": "develop",
+        "deployed": "2018-01-22T22:05:30.042Z",
+        "username": "marciecarlos"
+    },
+    "apidemo": {
+        "branch": "release/v1.232.0",
+        "deployed": "2018-04-27T02:26:23.685Z",
+        "username": "tuance"
+    },
+    "apiuat": {
+        "branch": "release/v1.227.0",
+        "deployed": "2018-03-21T02:52:26.280Z",
+        "username": "marciecarlos"
+    },
+    "esbtron": {
+        "branch": "feature/master_defects_v1.231.0",
+        "deployed": "2018-04-27T18:44:23.160Z",
+        "username": "jalpakhatri"
+    },
+    "ripley": {
+        "branch": "feature/HG-5278_cycle_notifications_are_turned_off",
+        "deployed": "2018-04-24T15:54:51.291Z",
+        "username": "qa"
+    },
+    "moborg": {
+        "branch": "feature/#1330_mobile_notifications_1.5",
+        "deployed": "2018-04-25T14:53:36.745Z",
+        "username": "mainwaring"
+    },
+    "esbripley": {
+        "branch": "feature/HG-5278_cycle_notifications_are_turned_off",
+        "deployed": "2018-04-24T15:50:59.358Z",
+        "username": "qa"
+    },
+    "esbuat": {
+        "branch": "hotfix/v1.232.1",
+        "deployed": "2018-04-27T17:05:35.866Z",
+        "username": "jalpakhatri"
+    },
+    "esbst": {
+        "branch": "hotfix/v1.232.1",
+        "deployed": "2018-04-27T04:18:51.893Z",
+        "username": "tuance"
+    },
+    "esbdemo": {
+        "branch": "hotfix/v1.232.1",
+        "deployed": "2018-04-27T04:01:18.765Z",
+        "username": "tuance"
+    },
+    "esbprod": {
+        "branch": "hotfix/v1.232.1",
+        "deployed": "2018-04-27T04:09:02.361Z",
+        "username": "tuance"
+    },
+    "scully": {
+        "branch": "feature/master_defects_v1.0",
+        "deployed": "2018-04-24T15:52:22.868Z",
+        "username": "diegorizzo"
+    },
+    "esbscully": {
+        "branch": "feature/master_defects_v1.0",
+        "deployed": "2018-04-24T15:55:19.712Z",
+        "username": "diegorizzo"
+    },
+    "esbqa": {
+        "branch": "feature/HG-5939_feedback_request_sort_order",
+        "deployed": "2018-04-27T16:28:15.604Z",
+        "username": "qa"
+    },
+    "esbtrinity": {
+        "branch": "feature/master_languages_v1.230.0",
+        "deployed": "2018-04-17T14:33:15.115Z",
+        "username": "qa"
+    },
+    "trinity": {
+        "branch": "feature/master_languages_v1.230.0",
+        "deployed": "2018-04-17T14:37:53.061Z",
+        "username": "qa"
+    },
+    "esbcylon": {
+        "branch": "feature/custom_roles_phase2_branch3",
+        "deployed": "2018-04-27T15:10:17.003Z",
+        "username": "irenekoumi"
+    },
+    "esbborg": {
+        "branch": "feature/#1330_mobile_notifications_1.5",
+        "deployed": "2018-04-25T14:54:13.841Z",
+        "username": "mainwaring"
+    },
+    "esbpoc": {
+        "branch": "feature/HG-4880_ManagerAns_API",
+        "deployed": "2018-04-26T19:10:15.410Z",
+        "username": "marciecarlos"
+    },
+    "apist": {
+        "branch": "release/v1.232.0",
+        "deployed": "2018-04-26T22:47:11.817Z",
+        "username": "tuance"
+    },
+    "most": {
+        "branch": "release/v1.232.0",
+        "deployed": "2018-04-26T22:47:00.163Z",
+        "username": "tuance"
+    },
+    "moavatar": {
+        "branch": "feature/1997_clone_company",
+        "deployed": "2018-04-09T15:41:31.827Z",
+        "username": "tuance"
+    },
+    "modemo": {
+        "branch": "release/v1.232.0",
+        "deployed": "2018-04-27T02:26:14.179Z",
+        "username": "tuance"
+    },
+    "moprod": {
+        "branch": "release/v1.232.0",
+        "deployed": "2018-04-27T02:36:27.233Z",
+        "username": "tuance"
+    },
+    "mouat": {
+        "branch": "release/v1.230.0",
+        "deployed": "2018-04-13T01:56:30.445Z",
+        "username": "marciecarlos"
+    },
+    "avatar": {
+        "branch": "hotfix/v1.231.1",
+        "deployed": "2018-04-20T22:26:40.603Z",
+        "username": "tuance"
+    },
+    "esbavatar": {
+        "branch": "hotfix/v1.231.1",
+        "deployed": "2018-04-20T22:32:17.588Z",
+        "username": "tuance"
+    },
+    "apiavatar": {
+        "branch": "feature/1997_clone_company",
+        "deployed": "2018-04-09T15:41:02.120Z",
+        "username": "tuance"
+    },
+    "apicylon": {
+        "branch": "feature/r&d-link-preview-r2",
+        "deployed": "2018-02-06T22:00:06.997Z",
+        "username": "marciecarlos"
+    },
+    "apiripley": {
+        "branch": "feature/HG-3628_Dept_Update_forUI",
+        "deployed": "2018-03-13T22:51:43.700Z",
+        "username": "diegorizzo"
+    },
+    "apiscully": {
+        "branch": "feature/goal_comment_fix",
+        "deployed": "2018-03-13T22:43:07.548Z",
+        "username": "qa"
+    },
+    "apitrinity": {
+        "branch": "develop",
+        "deployed": "2018-01-12T22:14:26.208Z",
+        "username": "tuance"
+    },
+    "mocylon": {
+        "branch": "feature/HGMOBILE-1070-roles",
+        "deployed": "2018-04-19T19:34:41.049Z",
+        "username": "jalpakhatri"
+    },
+    "mopoc": {
+        "branch": "release/v1.222.0",
+        "deployed": "2018-02-08T19:52:49.020Z",
+        "username": "eric"
+    },
+    "moripley": {
+        "branch": "feature/HG3125Add_more_measurable_result_options_when_creating_a_goal",
+        "deployed": "2017-04-21T17:03:23.547Z",
+        "username": "tirthpatel"
+    },
+    "moscully": {
+        "branch": "feature/Mobile_reconcile_-SignOffCheckIn_method_with-web",
+        "deployed": "2018-01-18T19:51:14.199Z",
+        "username": "eric"
+    },
+    "motrinity": {
+        "branch": "feature/languages",
+        "deployed": "2018-03-15T03:14:55.119Z",
+        "username": "marciecarlos"
+    },
+    "motron": {
+        "branch": "develop",
+        "deployed": "2018-04-16T16:01:25.320Z",
+        "username": "jalpakhatri"
+    },
+    "apiborg": {
+        "branch": "feature/mobile_2018_Q1_security_aduit",
+        "deployed": "2018-03-14T20:39:41.189Z",
+        "username": "mainwaring"
+    },
+    "bender": {
+        "branch": "develop",
+        "deployed": "2018-04-20T16:03:55.985Z",
+        "username": "mainwaring"
+    },
+    "bishop": {
+        "branch": "feature/11148_DeptMemberCount",
+        "deployed": "2018-04-20T19:51:51.231Z",
+        "username": "tahahamid"
+    },
+    "gort": {
+        "branch": "release/v1.232.0",
+        "deployed": "2018-04-26T20:19:38.724Z",
+        "username": "jalpakhatri"
+    },
+    "hal": {
+        "branch": "feature/HG-5733_allow_outlook_plugin_sign_out",
+        "deployed": "2018-03-27T18:36:56.438Z",
+        "username": "patrickevans"
+    },
+    "kitt": {
+        "branch": "feature/update-deploy-and-etl-scripts",
+        "deployed": "2018-04-22T19:02:07.100Z",
+        "username": "ken"
+    },
+    "robby": {
+        "branch": "develop",
+        "deployed": "2018-04-20T18:43:05.682Z",
+        "username": "katrinamanoshin"
+    },
+    "voltron": {
+        "branch": "develop",
+        "deployed": "2018-04-25T22:16:44.964Z",
+        "username": "marciecarlos"
+    },
+    "apibender": {
+        "branch": "develop",
+        "deployed": "2018-04-20T16:00:54.717Z",
+        "username": "mainwaring"
+    },
+    "apibishop": {
+        "branch": "feature/HG-3668_New_Dept_Setup_For_Goals",
+        "deployed": "2017-11-21T15:00:49.515Z",
+        "username": "tahahamid"
+    },
+    "apigort": {
+        "branch": "develop",
+        "deployed": "2018-01-04T17:53:03.462Z",
+        "username": "irenekoumi"
+    },
+    "apihal": {
+        "branch": "feature/Office_addin",
+        "deployed": "2017-10-30T02:24:34.730Z",
+        "username": "tuance"
+    },
+    "apikitt": {
+        "branch": "feature/8378_new_testing_environments",
+        "deployed": "2017-05-24T20:30:36.416Z",
+        "username": "tuance"
+    },
+    "apirobby": {
+        "branch": "develop",
+        "deployed": "2017-09-07T15:30:53.277Z",
+        "username": "philipplekhanov"
+    },
+    "apivoltron": {
+        "branch": "release/v1.231.0",
+        "deployed": "2018-04-18T17:56:12.472Z",
+        "username": "qa"
+    },
+    "esbbender": {
+        "branch": "develop",
+        "deployed": "2018-04-20T15:59:42.006Z",
+        "username": "mainwaring"
+    },
+    "esbbishop": {
+        "branch": "feature/11148_DeptMemberCount",
+        "deployed": "2018-04-20T19:50:32.261Z",
+        "username": "tahahamid"
+    },
+    "esbgort": {
+        "branch": "hotfix/v1.232.1",
+        "deployed": "2018-04-27T14:58:29.840Z",
+        "username": "jalpakhatri"
+    },
+    "esbhal": {
+        "branch": "feature/Office_addin",
+        "deployed": "2017-11-10T03:54:48.661Z",
+        "username": "tuance"
+    },
+    "esbkitt": {
+        "branch": "feature/RAD_nlp_poc",
+        "deployed": "2018-02-02T19:07:07.578Z",
+        "username": "billkorbecki"
+    },
+    "esbrobby": {
+        "branch": "develop",
+        "deployed": "2018-04-20T18:40:31.818Z",
+        "username": "katrinamanoshin"
+    },
+    "esbvoltron": {
+        "branch": "release/v1.228.0",
+        "deployed": "2018-04-23T15:31:37.671Z",
+        "username": "qa"
+    },
+    "mobender": {
+        "branch": "feature/ionic-demo",
+        "deployed": "2018-04-23T15:05:51.995Z",
+        "username": "mainwaring"
+    },
+    "mobishop": {
+        "branch": "feature/HG-3668_New_Dept_Setup_For_Goals",
+        "deployed": "2017-11-21T15:00:36.848Z",
+        "username": "tahahamid"
+    },
+    "mogort": {
+        "branch": "feature/HG-5591_RESTORE_first_login_version_2",
+        "deployed": "2018-04-10T18:22:58.566Z",
+        "username": "eric"
+    },
+    "mohal": {
+        "branch": "feature/Office_addin",
+        "deployed": "2017-11-10T03:53:51.786Z",
+        "username": "tuance"
+    },
+    "mokitt": {
+        "branch": "feature/RAD_nlp_poc",
+        "deployed": "2018-02-02T18:54:41.550Z",
+        "username": "billkorbecki"
+    },
+    "morobby": {
+        "branch": "feature/8378_new_testing_environments",
+        "deployed": "2017-05-25T19:36:39.623Z",
+        "username": "tuance"
+    },
+    "movoltron": {
+        "branch": "feature/8378_new_testing_environments",
+        "deployed": "2017-05-25T19:44:58.497Z",
+        "username": "tuance"
+    }
+}
