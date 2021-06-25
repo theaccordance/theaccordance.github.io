@@ -19,5 +19,8 @@
   "repository": "https://github.com/theaccordance/theaccordance.github.io",
   "author": "Joe Mainwaring <jm@theaccordance.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "nuke": "rm -rf node_modules/*"
+  }
 }
