@@ -1,0 +1,4 @@
+{
+    "name": "mainwaring.dev/www",
+    "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:14"
+}
