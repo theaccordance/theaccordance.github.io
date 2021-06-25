@@ -4,7 +4,8 @@ module.exports = function (grunt) {
             options: {
                 hostname: 'localhost',
                 port: '4949',
-                base: 'preview'
+                base: 'html5up-hyperspace',
+                keepalive: true
             }
         }
     };
