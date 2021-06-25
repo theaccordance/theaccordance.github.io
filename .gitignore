@@ -1,6 +1,6 @@
 node_modules/
 preview/
-bower_components/
 .grunt/
 .DS_Store
 .idea/
+yarn-error.log

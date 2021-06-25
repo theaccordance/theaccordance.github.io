@@ -1,6 +1,6 @@
 {
-  "name": "theaccordance",
-  "version": "0.1.0",
+  "name": "@mainwaring.dev/www",
+  "version": "2.0.0",
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -13,5 +13,11 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-gh-pages": "^0.10.0",
     "load-grunt-tasks": "^3.3.0"
-  }
+  },
+  "description": "public website",
+  "main": "gruntfile.js",
+  "repository": "https://github.com/theaccordance/theaccordance.github.io",
+  "author": "Joe Mainwaring <jm@theaccordance.com>",
+  "license": "MIT",
+  "private": true
 }
